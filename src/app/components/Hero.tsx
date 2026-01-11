@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import React from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import initialsImg from "@/assets/RA2.png?url";
+import initialsImg from "@/assets/RA2new.png?url";
 
 export function Hero() {
   return (
