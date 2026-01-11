@@ -43,11 +43,11 @@ export function EventTimeline() {
           {events.map((event, index) => (
             <motion.div 
               key={index}
-              className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-md p-6 sm:p-8 border border-[#f5c6d6]/30 hover:shadow-lg transition-shadow duration-300"
+              className="bg-white/90 rounded-2xl shadow-md p-6 sm:p-8 border border-[#f5c6d6]/30 hover:shadow-lg transition-shadow duration-300"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
+              transition={{ duration: 0.4, delay: index * 0.05, ease: "easeOut" }}
             >
               <div className="flex flex-col sm:flex-row sm:items-start gap-4">
                 <div className="flex-shrink-0">

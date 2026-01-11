@@ -195,12 +195,35 @@ html {
   will-change: background-position;
 }
 
+/* Performance optimizations for mobile */
+@media (max-width: 768px) {
+  .satin-bg {
+    animation-duration: 60s;
+    will-change: auto;
+  }
+  
+  .satin-bg::before,
+  .satin-bg::after {
+    animation-duration: 80s;
+    will-change: auto;
+  }
+  
+  .bg-wave,
+  .gradient-wave {
+    animation-duration: 30s;
+    will-change: auto;
+  }
+}
+
 /* Accessibility: disable animations for users who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .satin-bg,
   .satin-bg::before,
-  .satin-bg::after {
+  .satin-bg::after,
+  .bg-wave,
+  .gradient-wave {
     animation: none;
+    will-change: auto;
   }
 }
 
