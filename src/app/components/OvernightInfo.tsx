@@ -13,7 +13,7 @@ export function OvernightInfo() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          Ночлег
+          Ночёвка
         </motion.h2>
         
         <motion.div 
