@@ -15,7 +15,7 @@ export function Hero() {
             style={{ fontFamily: 'var(--font-heading)' }}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
           >
             Роман & Анастасия
           </motion.h1>
@@ -25,7 +25,7 @@ export function Hero() {
             className="space-y-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
+            transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
           >
             <p 
               className="text-6xl sm:text-4xl md:text-5xl text-white"
@@ -43,7 +43,7 @@ export function Hero() {
         className="flex justify-center pb-8"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.5, ease: "easeOut" }}
+        transition={{ duration: 1, delay: 0.75, ease: "easeOut" }}
       >
         <ImageWithFallback 
           src={initialsImg}

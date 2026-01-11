@@ -17,11 +17,11 @@ export function DressCode() {
         </motion.h2>
         
         <motion.div 
-          className="bg-white/90 rounded-3xl shadow-lg p-8 sm:p-12 border border-[#f5c6d6]/30"
+          className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg p-8 sm:p-12 border border-[#f5c6d6]/30"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
+          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
           <p className="text-base sm:text-lg text-[#4a4a4a] text-center leading-relaxed">
             Нам будет приятно видеть джентльменов в костюмах, а дам — в платьях пастельных оттенков.
