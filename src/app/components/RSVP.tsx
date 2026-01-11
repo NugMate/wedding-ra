@@ -42,7 +42,13 @@ export function RSVP() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              Будем рады видеть вас
+              Будем рады видеть вас!
+              <br />
+              <span className="text-8xl" style={{ fontFamily: 'LudvigVanBethoveen', lineHeight: '1.4' }}>
+              С любовью, 
+              <br />
+                Роман и Анастасия
+              </span>
             </motion.h2>
           </div>
         </section>
