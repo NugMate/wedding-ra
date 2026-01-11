@@ -44,7 +44,7 @@ export function RSVP() {
             >
               Будем рады видеть вас!
               <br />
-              <span className="text-8xl" style={{ fontFamily: 'LudvigVanBethoveen', lineHeight: '1.4' }}>
+              <span className="text-6xl" style={{ fontFamily: 'LudvigVanBethoveen' }}>
               С любовью, 
               <br />
                 Роман и Анастасия
