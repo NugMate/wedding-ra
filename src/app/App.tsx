@@ -4,14 +4,14 @@ import { EventTimeline } from "./components/EventTimeline";
 import { OvernightInfo } from "./components/OvernightInfo";
 import { DressCode } from "./components/DressCode";
 import { RSVP } from "./components/RSVP";
-import backgroundVideo from "@/assets/main2.mp4?url";
+import backgroundVideo from "@/assets/main.mp4?url";
 import React, { useState } from "react";
 
 export default function App() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoLoaded, setVideoLoaded] = useState(true);
 
   return (
-    <div className="min-h-screen relative overflow-x-hidden satin-bg">
+    <div className="min-h-screen relative overflow-x-hidden">
       <div className="fixed inset-0 w-full h-full -z-10">
         {!videoLoaded && (
           <div className="w-full h-full bg-pink-200" />
