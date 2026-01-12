@@ -4,6 +4,7 @@ import { EventTimeline } from "./components/EventTimeline";
 import { OvernightInfo } from "./components/OvernightInfo";
 import { DressCode } from "./components/DressCode";
 import { RSVP } from "./components/RSVP";
+import { LocationMap } from "./components/LocationMap";
 import backgroundVideo from "@/assets/main.mp4?url";
 import React, { useState } from "react";
 
@@ -28,6 +29,7 @@ export default function App() {
         <EventTimeline />
         <OvernightInfo />
         <DressCode />
+        <LocationMap />
         <RSVP />
       </div>
     </div>
