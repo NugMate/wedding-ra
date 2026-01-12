@@ -4,14 +4,14 @@ import React from "react";
 export function LocationMap() {
   // Coordinates for Заволжский район, деревня Вершинино
   // Update these with the exact coordinates if needed
-  const latitude = 57.5; // Replace with actual latitude
-  const longitude = 42.2; // Replace with actual longitude
+  const latitude = 57.4619; // Replace with actual latitude
+  const longitude = 42.204406; // Replace with actual longitude
   
   // Yandex Maps static map URL
-  const staticMapUrl = `https://static-maps.yandex.ru/1.x/?ll=${longitude},${latitude}&z=12&l=map&size=600,400&pt=${longitude},${latitude},pm2rdm`;
+  const staticMapUrl = `https://static-maps.yandex.ru/1.x/?ll=${longitude},${latitude}&z=14&l=map&size=600,400&pt=${longitude},${latitude},pm2rdm`;
   
   // Yandex Maps link for redirect
-  const yandexMapUrl = `https://yandex.ru/maps/?ll=${longitude},${latitude}&z=12&pt=${longitude},${latitude}`;
+  const yandexMapUrl = `https://yandex.ru/maps/?ll=${longitude},${latitude}&z=14&pt=${longitude},${latitude}`;
 
   return (
     <section className="py-16 px-4 pb-24">
