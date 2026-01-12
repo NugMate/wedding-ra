@@ -43,7 +43,7 @@ export function EventTimeline() {
           {events.map((event, index) => (
             <motion.div 
               key={index}
-              className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-md p-6 sm:p-8 border border-[#f5c6d6]/30 hover:shadow-lg transition-shadow duration-300"
+              className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-[#f5c6d6]/30 hover:shadow-2xl transition-shadow duration-300"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-50px" }}
@@ -59,11 +59,11 @@ export function EventTimeline() {
                   </span>
                 </div>
                 <div className="flex-1 sm:border-l-2 sm:border-[#f5c6d6]/40 sm:pl-6">
-                  <h3 className="text-xl sm:text-2xl text-[#4a4a4a] mb-2" style={{ fontWeight: 500 }}>
+                  <h3 className="text-xl sm:text-2xl text-[#111111] mb-2" style={{ fontWeight: 500 }}>
                     {event.title}
                   </h3>
                   {event.description && (
-                    <p className="text-base text-[#6a6a6a] leading-relaxed">
+                    <p className="text-base text-[#111111] leading-relaxed">
                       {event.description}
                     </p>
                   )}

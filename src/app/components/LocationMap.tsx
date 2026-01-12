@@ -46,10 +46,10 @@ export function LocationMap() {
               className="w-full h-auto rounded-2xl"
             />
           </a>
-          <p className="text-base sm:text-lg text-[#4a4a4a] text-center mt-4 leading-relaxed">
+          <p className="text-base sm:text-lg text-[#111111] text-center mt-4 leading-relaxed">
             Заволжский район, деревня Вершинино
           </p>
-          <p className="text-sm text-[#6a6a6a] text-center mt-2">
+          <p className="text-sm text-[#111111] text-center mt-2">
             Нажмите на карту, чтобы открыть в Яндекс.Картах
           </p>
         </motion.div>
