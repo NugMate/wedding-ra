@@ -46,8 +46,8 @@ export function DressCode() {
               <span className="text-xs text-[#111111]">Персиковый</span>
             </div>
             <div className="flex flex-col items-center gap-2">
-              <div className="w-12 h-12 rounded-full bg-[#d4f2e5] border-2 border-white shadow-md"></div>
-              <span className="text-xs text-[#111111]">Мятный</span>
+              <div className="w-12 h-12 rounded-full bg-[#ebdecf] border-2 border-white shadow-md"></div>
+              <span className="text-xs text-[#111111]">Бежевый</span>
             </div>
           </div>
         </motion.div>
