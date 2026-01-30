@@ -11,8 +11,8 @@ export function Hero() {
           
           {/* Names */}
           <motion.h1 
-            className="text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] xl:text-[12rem] text-white mb-6"
-            style={{ fontFamily: 'var(--font-heading)' }}
+            className="text-[7rem] sm:text-8xl md:text-9xl lg:text-[10rem] xl:text-[12rem] text-white mb-6"
+            style={{ fontFamily: "LudvigVanBethoveen", lineHeight: "1" }}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
@@ -29,7 +29,7 @@ export function Hero() {
           >
             <p 
               className="text-6xl sm:text-4xl md:text-5xl text-white"
-              style={{ fontFamily: 'var(--font-heading)' }}
+              style={{ fontFamily: "LudvigVanBethoveen", lineHeight: "1" }}
             >
               26.06.2026
             </p>

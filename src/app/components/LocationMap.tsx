@@ -17,8 +17,8 @@ export function LocationMap() {
     <section className="py-16 px-4 pb-24">
       <div className="max-w-3xl mx-auto">
         <motion.h2 
-          className="text-4xl sm:text-5xl text-center text-white mb-12"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-[4.5rem] sm:text-[4.5rem] text-center text-white mb-12"
+          style={{ fontFamily: "LudvigVanBethoveen", lineHeight: "1" }}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -46,10 +46,10 @@ export function LocationMap() {
               className="w-full h-auto rounded-2xl"
             />
           </a>
-          <p className="text-base sm:text-lg text-[#111111] text-center mt-4 leading-relaxed">
+          <p className="text-base sm:text-lg text-[#000000] text-center mt-4 leading-relaxed">
             Заволжский район, деревня Вершинино
           </p>
-          <p className="text-sm text-[#111111] text-center mt-2">
+          <p className="text-sm text-[#000000] text-center mt-2">
             Нажмите на карту, чтобы открыть в Яндекс.Картах
           </p>
         </motion.div>

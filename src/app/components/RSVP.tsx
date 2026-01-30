@@ -1,13 +1,14 @@
 import { motion } from "motion/react";
 import React from "react";
+import { GoogleForm } from "./GoogleForm";
 
 export function RSVP() {
   return (
     <section className="py-16 px-4 pb-24">
       <div className="max-w-3xl mx-auto">
         <motion.h2 
-          className="text-4xl sm:text-5xl text-center text-white mb-12"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-[4.5rem] sm:text-[4.5rem] text-center text-white mb-12"
+          style={{ fontFamily: "LudvigVanBethoveen", lineHeight: "1" }}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -23,32 +24,31 @@ export function RSVP() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
-          <p className="text-base sm:text-lg text-[#111111] leading-relaxed mb-6">
-            Пожалуйста, подтвердите ваше присутствие на нашем празднике до <strong>1 мая 2026 года</strong> лично или телефонным звонком / любым удобным для вас способом.
+          <p className="text-base sm:text-lg text-[#000000] leading-relaxed mb-6">
+            Пожалуйста, подтвердите Ваше присутствие на нашем празднике до <strong>1 мая 2026 года</strong> лично или телефонным звонком / любым удобным для Вас способом.
           </p>
-          <p className="text-base sm:text-lg text-[#111111] leading-relaxed">
+          <p className="text-base sm:text-lg text-[#000000] leading-relaxed">
             Мы организуем транспорт для гостей. Пожалуйста, сообщите нам, планируете ли вы воспользоваться трансфером.
           </p>
         </motion.div>
         
+        <GoogleForm />
         {/* Final heading */}
         <section className="py-16 px-4 pb-24">
           <div className="max-w-3xl mx-auto">
             <motion.h2 
-              className="text-4xl sm:text-5xl md:text-6xl text-center text-white"
-              style={{ fontFamily: 'var(--font-heading)' }}
+              className="text-[4rem] sm:text-[4.5rem] md:text-[5rem] text-center text-white"
+              style={{ fontFamily: "LudvigVanBethoveen", lineHeight: "1" }}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              Будем рады видеть вас!
+              Будем рады видеть Вас!
               <br />
-              <span className="text-6xl" style={{ fontFamily: 'LudvigVanBethoveen' }}>
-                С любовью, 
-                <br />
-                Роман и Анастасия
-              </span>
+              С любовью, 
+              <br />
+              Роман и Анастасия
             </motion.h2>
           </div>
         </section>

@@ -6,7 +6,7 @@ export function EventTimeline() {
     {
       time: "13:00",
       title: "Трансфер",
-      description: "В 13:00 вас будет ожидать трансфер в микрорайоне Рождественском, дом 4, подъезд 2,  который доставит в Заволжский район, деревня Вершинино, где будет проходить торжество."
+      description: "В 13:00 Вас будет ожидать трансфер по адресу: микрорайон Рождественский, дом 4, подъезд 2, который доставит в Заволжский район, деревня Вершинино, где будет проходить торжество."
     },
     {
       time: "16:00",
@@ -29,8 +29,8 @@ export function EventTimeline() {
     <section className="py-16 px-4">
       <div className="max-w-3xl mx-auto">
         <motion.h2 
-          className="text-4xl sm:text-5xl text-center text-white mb-12"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-[4.5rem] sm:text-[4.5rem] text-center text-white mb-12"
+          style={{ fontFamily: "LudvigVanBethoveen", lineHeight: "1" }}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -59,11 +59,11 @@ export function EventTimeline() {
                   </span>
                 </div>
                 <div className="flex-1 sm:border-l-2 sm:border-[#f5c6d6]/40 sm:pl-6">
-                  <h3 className="text-xl sm:text-2xl text-[#111111] mb-2" style={{ fontWeight: 500 }}>
+                  <h3 className="text-xl sm:text-2xl text-[#000000] mb-2" style={{ fontWeight: 500 }}>
                     {event.title}
                   </h3>
                   {event.description && (
-                    <p className="text-base text-[#111111] leading-relaxed">
+                    <p className="text-base text-[#000000] leading-relaxed">
                       {event.description}
                     </p>
                   )}

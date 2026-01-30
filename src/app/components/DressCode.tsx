@@ -6,8 +6,8 @@ export function DressCode() {
     <section className="py-16 px-4">
       <div className="max-w-3xl mx-auto">
         <motion.h2 
-          className="text-4xl sm:text-5xl text-center text-white mb-12"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-[4.5rem] sm:text-[4.5rem] text-center text-white mb-12"
+          style={{ fontFamily: "LudvigVanBethoveen", lineHeight: "1" }}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -23,7 +23,7 @@ export function DressCode() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
-          <p className="text-base sm:text-lg text-[#111111] text-center leading-relaxed">
+          <p className="text-base sm:text-lg text-[#000000] text-center leading-relaxed">
             Нам будет приятно видеть джентльменов в костюмах, а дам — в платьях пастельных оттенков.
           </p>
           
@@ -31,23 +31,23 @@ export function DressCode() {
           <div className="mt-8 flex justify-center gap-3 flex-wrap">
             <div className="flex flex-col items-center gap-2">
               <div className="w-12 h-12 rounded-full bg-[#ffd6e5] border-2 border-white shadow-md"></div>
-              <span className="text-xs text-[#111111]">Розовый</span>
+              <span className="text-xs text-[#000000]">Розовый</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="w-12 h-12 rounded-full bg-[#e8d5f2] border-2 border-white shadow-md"></div>
-              <span className="text-xs text-[#111111]">Лавандовый</span>
+              <span className="text-xs text-[#000000]">Лавандовый</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="w-12 h-12 rounded-full bg-[#d4e5f7] border-2 border-white shadow-md"></div>
-              <span className="text-xs text-[#111111]">Голубой</span>
+              <span className="text-xs text-[#000000]">Голубой</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="w-12 h-12 rounded-full bg-[#ffebd6] border-2 border-white shadow-md"></div>
-              <span className="text-xs text-[#111111]">Персиковый</span>
+              <span className="text-xs text-[#000000]">Персиковый</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="w-12 h-12 rounded-full bg-[#ebdecf] border-2 border-white shadow-md"></div>
-              <span className="text-xs text-[#111111]">Бежевый</span>
+              <span className="text-xs text-[#000000]">Бежевый</span>
             </div>
           </div>
         </motion.div>

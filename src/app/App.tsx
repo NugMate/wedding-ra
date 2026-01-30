@@ -27,9 +27,9 @@ export default function App() {
         <Hero />
         <InvitationText />
         <EventTimeline />
+        <LocationMap />
         <OvernightInfo />
         <DressCode />
-        <LocationMap />
         <RSVP />
       </div>
     </div>
