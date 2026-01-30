@@ -32,7 +32,7 @@ export function RSVP() {
           </p>
         </motion.div>
         
-        <GoogleForm />
+        {/* <GoogleForm /> */}
         {/* Final heading */}
         <section className="py-16 px-4 pb-24">
           <div className="max-w-3xl mx-auto">
