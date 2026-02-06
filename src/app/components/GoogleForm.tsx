@@ -25,7 +25,7 @@ export function GoogleForm() {
         >
           <div className="w-full overflow-hidden">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeWLD_h1NAAG-bVy74jquIlIxQYtrk7IQwNpXy1_M0AFLh9YA/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfLaFy0ABegrNk5HhMFcPgOW-6n3bYUqj2MNCzG6Fczsi1esg/viewform?embedded=true"
               title="Анкета гостей"
               className="w-full rounded-2xl border-0"
               style={{ minHeight: "850px" }}
