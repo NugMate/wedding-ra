@@ -24,7 +24,7 @@ export function DressCode() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
           <p className="text-base sm:text-lg text-[#000000] text-center leading-relaxed">
-            Нам будет приятно видеть джентльменов в костюмах, а дам — в платьях пастельных оттенков.
+            Дорогие джентльмены, просим Вас по возможности избегать одежду в чёрном цвете.
           </p>
           
           {/* Color palette suggestion */}
