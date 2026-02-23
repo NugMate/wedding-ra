@@ -27,9 +27,6 @@ export function RSVP() {
           <p className="text-base sm:text-lg text-[#000000] leading-relaxed mb-6">
             Пожалуйста, подтвердите своё присутствие до <strong>1 мая 2026 года</strong>, ответив на несколько вопросов из анкеты, которую мы для вас приготовили.
           </p>
-          <p className="text-base sm:text-lg text-[#000000] leading-relaxed">
-            Мы организуем транспорт для гостей. Пожалуйста, сообщите нам, планируете ли вы воспользоваться трансфером.
-          </p>
         </motion.div>
         
         <GoogleForm />
